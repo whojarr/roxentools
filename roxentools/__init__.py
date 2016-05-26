@@ -1,5 +1,6 @@
 from exceptions import *
 from .interface import *
+from .config import *
 from .server import *
 from .database import *
 from .site import *
