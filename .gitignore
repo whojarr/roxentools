@@ -3,3 +3,4 @@
 .pydevproject
 *.pyc
 roxentools.egg-info
+.idea
