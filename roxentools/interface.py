@@ -2,8 +2,8 @@ import urllib2
 import base64
 import json
 
-def interface_call(username='', password='', url="https://localhost:9999", path="/",):
 
+def interface_call(username='', password='', url="https://localhost:9999", path="/", ):
     if username == '' or password == '':
         try:
             with open('/root/roxentools_conf.json') as filein:
@@ -21,11 +21,11 @@ def interface_call(username='', password='', url="https://localhost:9999", path=
             request = urllib2.Request(request_url)
             request.add_header("Authorization", "Basic %s" % base64string)
             response = urllib2.urlopen(request)
-            #print 'response headers: "%s"' % response.info()
+            # print 'response headers: "%s"' % response.info()
         except IOError, e:
-            if hasattr(e, 'code'): # HTTPError
+            if hasattr(e, 'code'):  # HTTPError
                 print 'http error code: ', e.code
-            elif hasattr(e, 'reason'): # URLError
+            elif hasattr(e, 'reason'):  # URLError
                 print "can't connect, reason: ", e.reason
             else:
                 raise
