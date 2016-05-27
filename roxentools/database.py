@@ -1,12 +1,15 @@
 from .interface import interface_call
 
+
 def db_create(dbname, dbuser, dbpassword, dhost='localhost'):
     print("TODO: remove archived install mysql database")
     return True
 
+
 def db_delete(dbname, dbuser, dbpassword, dhost='localhost'):
     print("TODO: remove archived install mysql database")
     return True
+
 
 def db_permission(database, sitename, mode="W"):
     if mode == "N":
