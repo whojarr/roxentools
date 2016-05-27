@@ -1,4 +1,4 @@
-# Roxen Tools
+# Roxen Tools &nbsp;[![Build Status](https://travis-ci.org/whojarr/roxentools.svg?branch=master)](https://travis-ci.org/whojarr/roxentools)
 
 A python package containing tools for managing a roxen web server via python
 
@@ -11,7 +11,6 @@ python setup.py install
 TODO: 
 * create documentation
 * use tox and run the tests against different versions of Python
-* connect to travis
 * sort/confirm requirement for yum installed lxml on centos
 * add requirements.txt
 * try urlparse in config module
