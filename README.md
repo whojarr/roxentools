@@ -13,7 +13,6 @@ TODO:
 * use tox and run the tests against different versions of Python
 * connect to travis
 * sort/confirm requirement for yum installed lxml on centos
-* add requirements.txt
 * try urlparse in config module
 
 ## Contributing
