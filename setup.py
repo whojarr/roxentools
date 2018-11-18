@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='roxentools',
-      version='0.3',
+      version='1.3.1',
       description='Roxen Web Server Tools',
       url='http://github.com/whojarr/roxen',
       author='David Hunter',

@@ -12,3 +12,4 @@ coverage
 */coverage
 .noserc
 nosetests.xml
+local_test.py
