@@ -1,7 +1,10 @@
 import json
 import requests
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
-import urllib
+try:
+    from urllib import quote  # Python 2.X
+except ImportError:
+    from urllib.parse import quote  # Python 3+
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
