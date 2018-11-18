@@ -68,8 +68,8 @@ def url_list(sitename):
 
                                         if url_result['url'] != '':
                                             urls.append(url_result)
-        except Exception, e:
-            print "Could not parse:" + filename + ' ' + str(sys.exc_info()[1])
+        except Exception as e:
+            print("Could not parse:" + filename + ' ' + str(sys.exc_info()[1]))
 
     return urls
 
@@ -103,7 +103,7 @@ def mountpoint_list(sitename):
 
                         mountpoints.append(mountpoint_result)
 
-        except Exception, e:
-            print "Could not parse:" + filename + ' ' + str(sys.exc_info()[1])
+        except Exception as e:
+            print("Could not parse:" + filename + ' ' + str(sys.exc_info()[1]))
 
     return mountpoints

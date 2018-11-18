@@ -1,6 +1,14 @@
+.settings
+.tox
 .git
 .project
 .pydevproject
 *.pyc
 roxentools.egg-info
 .idea
+.coverage
+*coverage.xml
+coverage
+*/coverage
+.noserc
+nosetests.xml

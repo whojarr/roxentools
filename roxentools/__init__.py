@@ -1,4 +1,4 @@
-from exceptions import *
+from .exceptions import *
 from .interface import *
 from .config import *
 from .server import *
