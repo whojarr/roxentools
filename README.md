@@ -19,6 +19,8 @@ TODO:
 
 ## Development
 
+mkvirtualenv --python=`which python3` roxentools
+
 pip install -e roxentools
 
 pip install -r  requirements_dev.txt
